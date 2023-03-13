@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /*background-color: #0B1622;*/
+    color: #8DA8BD;
+    background-color: #031c36;
+   
+}
+
+main{
+    padding: 20px;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}    
+
+section{
+    display: inline-block;
+    width: 348px;
+    text-align: center;
+
+}
+
+h1, h2{
+    font-family: 'Lilita One', cursive;
+    font-weight: normal;
+}
+
+header{
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+header h1{
+    font-size: 2.7em;
+    color: rgb(212, 201, 201);
+    margin-bottom: 0px;
+}
+
+header p{
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-decoration: line-through;
+
+}
+
+main h1{
+    font-size: 2em;
+    color: rgb(212, 201, 201);
+    padding: 20px;
+}
+
+main h2{
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+main h2.finalizado{
+    color: #235a29;
+}
+
+main h2.andamento{
+    color: rgb(121, 121, 19);
+}
+
+main h2.futuro{
+    color: rgb(104, 35, 35);
+}
+
+main ul{
+    list-style: inside;
+    text-align: center;   
+    list-style: none;
+    padding-right: 50px;
+}
+
+main ul > li{
+    padding-bottom: 15px;
+}
+
+
+footer{
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-size: 0.7em;
+    color: white;
+}
