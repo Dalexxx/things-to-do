@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
 
 body{
     font-family: 'Roboto', sans-serif;
     /*background-color: #0B1622;*/
-    color: #8DA8BD;
-    background-color: #031c36;
+    color: #414141;
+    background-color: #EEEEEE;
    
 }
 
@@ -28,7 +30,7 @@ section{
 }
 
 h1, h2{
-    font-family: 'Lilita One', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
     font-weight: normal;
 }
 
@@ -39,9 +41,10 @@ header{
 }
 
 header h1{
-    font-size: 2.7em;
-    color: rgb(212, 201, 201);
+    font-size: 3em;
+    color: #414141;
     margin-bottom: 0px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 header p{
@@ -55,7 +58,7 @@ header p{
 
 main h1{
     font-size: 2em;
-    color: rgb(212, 201, 201);
+    color: #414141;
     padding: 20px;
 }
 
@@ -95,6 +98,11 @@ footer{
     text-align: center;
     padding-top: 25px;
     margin-top: 25px;
-    font-size: 0.7em;
-    color: white;
+    font-size: 0.8em;
+    color: rgb(158, 153, 153);
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(151, 96, 96);
 }
